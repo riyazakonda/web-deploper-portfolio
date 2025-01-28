@@ -5,13 +5,77 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+/* header */
+.header {
+  background-image: url("/images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* nav style */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
 }
 .nav-title {
   font-weight: 800;
   font-size: 45px;
 }
-.nav-color {
-  color: orange;
+
+nav ul li {
+  list-style: none;
+  margin: 50px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+/* sheared style */
+.dark-2 {
+  color: #474747;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+
+/* banner styles */
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: 85px;
+}
+.banner-description {
+  font-size: 28px;
+}
+.banner-profile {
+  width: 500px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-container {
+  max-width: 580px;
 }
